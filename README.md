@@ -9,3 +9,5 @@ Fitur :
         1. Lampu Luar Ruko
 
         2. CCTV Jepret
+        
+Program utama terdapat di utama.py
