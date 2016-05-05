@@ -1,0 +1,18 @@
+1. install dulu upstart untuk menjadikan program utama.py sebagai service dan bisa respawn (jalan lagi) ketika crash
+
+	sudo apt-get install upstart
+
+2. buat file .conf di /etc/init dengan nama utama.conf (copy paste saja)
+
+3. jalankan otomatis setiap start up (boot)
+
+	sudo crontab -e
+	@reboot start utama
+
+4. jika ingin melihat log service-nya
+
+	tail -f /var/tmp/utama.log
+
+
+
+NB : Jangan lupa ubah posisi kabel GPIO di pin 15 ke pin 11 supaya sinkron dengan pintu peraga

@@ -1,0 +1,13 @@
+1. backup from AdekMyMQTT (Nov-Des 2015)
+2. update, upgrade, dist-upgrade with --fix-missing, rpi-update
+3. backup OS
+4. install weaved
+5. install package biar modem hilink jalan 
+	sudo apt-get install sg3-utils
+   lebih lengkap : http://www.techmind.org/rpi/
+6. setelah tahap ini, modem terverifikasi sebagai network adapter, bukan lagi CD ROM Drive
+   sudo /usr/bin/sg_raw /dev/sr0 11 06 20 00 00 00 00 00 01 00
+7. lsusb untuk mengecek (12d1:1f01 = CD ROM; 12d1:14db = network adapter)
+8. automate mode switch (ikuti tutorial pada langkah 5)
+8. copy seluruh isi folder buatrukocipa yg ada di remot3.it ke raspi
+9. ikuti catatan.txt
