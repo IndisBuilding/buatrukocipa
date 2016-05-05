@@ -6,4 +6,5 @@ Lokasi : Ruko Cipamokolan
 
 
 Fitur : 1. Lampu Luar Ruko
+
         2. CCTV Jepret
